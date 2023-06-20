@@ -1,0 +1,186 @@
+Country,Gender Development Index (GDI),HDI 2013
+Norway,0.996,0.944
+Australia,0.976,0.931
+Switzerland,0.95,0.946
+Denmark,0.977,0.933
+Netherlands,0.947,0.93
+Germany,0.963,0.935
+Ireland,0.973,0.917
+United States,0.995,0.918
+Canada,0.982,0.913
+New Zealand,0.961,0.914
+Singapore,0.985,0.921
+"Hong Kong, China (SAR)",0.958,0.918
+Liechtenstein,..,0.912
+Sweden,0.999,0.933
+United Kingdom,0.965,0.921
+Iceland,0.975,0.927
+Korea (Republic of),0.93,0.901
+Israel,0.971,0.905
+Luxembourg,0.971,0.9
+Japan,0.961,0.902
+Belgium,0.975,0.916
+France,0.987,0.889
+Austria,0.943,0.905
+Finland,0.996,0.928
+Slovenia,0.996,0.893
+Spain,0.975,0.882
+Italy,0.964,0.881
+Greece,0.961,0.867
+Estonia,1.03,0.869
+Brunei Darussalam,0.977,0.839
+Cyprus,0.971,0.86
+Qatar,0.998,0.842
+Andorra,..,0.856
+Slovakia,0.999,0.845
+Poland,1.007,0.856
+Lithuania,1.03,0.847
+Malta,0.937,0.867
+Saudi Arabia,0.901,0.845
+Argentina,0.982,0.835
+United Arab Emirates,0.954,0.838
+Chile,0.967,0.826
+Portugal,0.985,0.84
+Hungary,0.976,0.839
+Bahrain,0.94,0.815
+Latvia,1.029,0.839
+Croatia,0.987,0.83
+Kuwait,0.972,0.793
+Montenegro,0.954,0.811
+Belarus,1.021,0.811
+Russian Federation,1.019,0.802
+Oman,0.909,0.799
+Romania,0.989,0.808
+Uruguay,1.018,0.8
+Bahamas,..,0.806
+Kazakhstan,1.002,0.791
+Barbados,1.018,0.807
+Antigua and Barbuda,..,0.76
+Bulgaria,0.991,0.801
+Palau,..,0.821
+Panama,0.996,0.791
+Malaysia,0.947,0.785
+Mauritius,0.95,0.779
+Seychelles,..,0.775
+Trinidad and Tobago,0.985,0.783
+Serbia,0.966,0.778
+Cuba,0.954,0.766
+Lebanon,0.899,0.757
+Costa Rica,0.974,0.788
+Iran (Islamic Republic of),0.858,0.771
+Venezuela (Bolivarian Republic of),1.03,0.777
+Turkey,0.902,0.785
+Sri Lanka,0.948,0.769
+Mexico,0.943,0.756
+Brazil,0.997,0.753
+Georgia,0.962,0.775
+Saint Kitts and Nevis,..,0.764
+Azerbaijan,0.942,0.735
+Grenada,..,0.76
+Jordan,0.86,0.729
+Ukraine,1.003,0.767
+Algeria,0.837,0.729
+Peru,0.947,0.75
+Albania,0.948,0.782
+Armenia,1.008,0.762
+Bosnia and Herzegovina,..,0.755
+Ecuador,0.98,0.754
+Saint Lucia,0.991,0.732
+China,0.943,0.724
+Fiji,0.941,0.728
+Mongolia,1.028,0.727
+Thailand,1,0.734
+Dominica,..,0.739
+Libya,0.95,0.761
+Tunisia,0.894,0.723
+Colombia,0.997,0.742
+Saint Vincent and the Grenadines,..,0.723
+Jamaica,0.995,0.729
+Tonga,0.967,0.708
+Belize,0.958,0.702
+Dominican Republic,0.995,0.718
+Suriname,0.975,0.734
+Maldives,0.937,0.709
+Samoa,0.956,0.7
+Botswana,0.982,0.701
+Moldova (Republic of),1.003,0.735
+Egypt,0.868,0.683
+Turkmenistan,..,0.685
+Gabon,..,0.673
+Indonesia,0.927,0.687
+Paraguay,0.956,0.712
+"Palestine, State of",0.86,0.695
+Uzbekistan,0.945,0.692
+Philippines,0.977,0.691
+El Salvador,0.965,0.67
+South Africa,0.948,0.685
+Viet Nam,..,0.681
+Bolivia (Plurinational State of),0.931,0.684
+Kyrgyzstan,0.961,0.68
+Iraq,0.787,0.646
+Cabo Verde,..,0.647
+Micronesia (Federated States of),..,0.605
+Guyana,0.984,0.666
+Nicaragua,0.96,0.639
+Morocco,0.828,0.644
+Namibia,0.981,0.624
+Guatemala,0.949,0.621
+Tajikistan,0.926,0.653
+India,0.795,0.604
+Honduras,0.944,0.613
+Bhutan,0.897,0.61
+Timor-Leste,0.868,0.63
+Syrian Arab Republic,0.834,0.596
+Vanuatu,0.903,0.593
+Congo,0.922,0.545
+Kiribati,..,0.608
+Equatorial Guinea,..,0.585
+Zambia,0.917,0.557
+Ghana,0.885,0.586
+Lao People's Democratic Republic,0.896,0.582
+Bangladesh,0.917,0.579
+Cambodia,0.89,0.559
+Sao Tome and Principe,0.891,0.582
+Kenya,0.913,0.573
+Nepal,0.908,0.568
+Pakistan,0.726,0.523
+Myanmar,..,0.543
+Angola,..,0.555
+Tanzania (United Republic of),0.938,0.497
+Nigeria,0.841,0.519
+Cameroon,0.879,0.534
+Madagascar,0.945,0.517
+Zimbabwe,0.922,0.537
+Mauritania,0.816,0.525
+Solomon Islands,..,0.558
+Papua New Guinea,..,0.537
+Comoros,0.813,0.542
+Yemen,0.739,0.509
+Lesotho,0.953,0.489
+Togo,0.831,0.488
+Haiti,..,0.487
+Rwanda,0.957,0.515
+Uganda,0.886,0.513
+Benin,0.823,0.522
+Sudan,0.83,0.494
+Djibouti,..,0.484
+South Sudan,..,0.428
+Senegal,0.883,0.494
+Afghanistan,0.6,0.496
+Côte d'Ivoire,0.81,0.49
+Malawi,0.907,0.456
+Ethiopia,0.84,0.447
+Gambia,0.889,0.467
+Congo (Democratic Republic of the),0.833,0.448
+Liberia,0.789,0.477
+Guinea-Bissau,..,0.452
+Mali,0.776,0.413
+Mozambique,0.881,0.417
+Sierra Leone,0.814,0.433
+Guinea,0.778,0.445
+Burkina Faso,0.881,0.41
+Burundi,0.911,0.432
+Chad,0.768,0.394
+Eritrea,..,0.446
+Central African Republic,0.773,0.363
+Niger,0.729,0.357
