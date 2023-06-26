@@ -3,6 +3,7 @@ import numpy as np
 from scipy.stats import pearsonr, spearmanr
 
 df = pd.read_csv('databases/FINAL DATASET.csv')
+print(df)
 
 # Drop rows with infinite or NaN values from the selected columns
 df_cleaned = df.replace([np.inf, -np.inf], np.nan).dropna()
@@ -14,6 +15,7 @@ c = df_cleaned['GII 2015']
 x = df_cleaned['suicides/100k male']
 y = df_cleaned['suicides/100k female']
 z = df_cleaned['Suicide Ratio (M/F)']
+u = df_cleaned['Average Suicide Ratio']
 
 # Calculate correlation using Pearson's correlation coefficient
 hdi_gdi_p, _ = pearsonr(a,b)
@@ -32,6 +34,10 @@ hdi_ratio_p, _ = pearsonr(a,z)
 gdi_ratio_p, _ = pearsonr(b,z)
 gii_ratio_p, _ = pearsonr(c,z)
 
+hdi_avg_p,_ = pearsonr(a,u)
+gdi_avg_p,_ = pearsonr(b,u)
+gii_avg_p,_ = pearsonr(c,u)
+
 print('HDI-GDI Pearson:', hdi_gdi_p)
 print('HDI-GII Pearson:', hdi_gii_p)
 print('GDI-GII Pearson:', gdi_gii_p)
@@ -47,3 +53,7 @@ print('')
 print('HDI-RATIO Pearson:', hdi_ratio_p)
 print('GDI-RATIO Pearson:', gdi_ratio_p)
 print('GII-RATIO Pearson:', gii_ratio_p)
+print('')
+print('HDI-AVG SUICIDE Pearson:', hdi_avg_p)
+print('GDI-AVG SUICIDE Pearson:', gdi_avg_p)
+print('GII-AVG SUICIDE Pearson:', gii_avg_p)
