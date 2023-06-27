@@ -15,7 +15,7 @@ c = df_cleaned['GII 2015']
 x = df_cleaned['suicides/100k male']
 y = df_cleaned['suicides/100k female']
 z = df_cleaned['Suicide Ratio (M/F)']
-u = df_cleaned['Average Suicide Ratio']
+u = df_cleaned['Average Suicide']
 
 # Calculate correlation using Pearson's correlation coefficient
 hdi_gdi_p, _ = pearsonr(a,b)
