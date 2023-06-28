@@ -4,8 +4,8 @@ import numpy as np
 df1 = pd.read_csv('databases/IV DATASET 1.csv')
 df2 = pd.read_csv('databases/IV DATASET 2.csv')
 merge = pd.merge(df1, df2, on='Country')
-merge['Average Suicide'] = (merge['suicides/100k male'] + merge['suicides/100k female']) / 2
 merge.to_csv('databases/FINAL DATASET.csv')
+
 
 
 merge['Suicide Ratio (M/F)'] = np.where(merge['suicides/100k female'] != 0,
