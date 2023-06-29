@@ -1,200 +1,201 @@
-,Country,Regimetype
-520,Afghanistan,presidential
-194,Albania,parliamentary
-444,Algeria,presidential
-172,Andorra,parliamentary
-405,Angola,party-based
-44,Antigua and Barbuda,parliamentary
-153,Argentina,presidential
-227,Armenia,parliamentary
-609,Australia,parliamentary
-182,Austria,parliamentary
-235,Azerbaijan,personal
-2,Bahamas,parliamentary
-510,Bahrain,monarchy
-557,Bangladesh,parliamentary
-34,Barbados,parliamentary
-225,Belarus,personal
-162,Belgium,parliamentary
-48,Belize,parliamentary
-281,Benin,presidential
-543,Bhutan,parliamentary
-139,Bolivia,presidential
-203,Bosnia,foreign-occupied
-423,Botswana,party-based
-127,Brazil,presidential
-601,Brunei,monarchy
-212,Bulgaria,parliamentary
-311,Burkina Faso,presidential
-392,Burundi,personal
-589,Cambodia,party-based
-338,Cameroon,personal
-1,Canada,parliamentary
-243,Cape Verde,parliamentary
-356,Cen African Rep,presidential
-362,Chad,provisional military
-145,Chile,presidential
-531,China,party-based
-95,Colombia,presidential
-435,Comoros,presidential
-368,Congo-Brz,personal
-372,Congo/Zaire,personal
-84,Costa Rica,presidential
-198,Croatia,parliamentary
-5,Cuba,party-personal
-210,Cyprus,foreign-occupied
-188,Czech Rep,parliamentary
-187,Czechoslovakia,parliamentary
-240,Denmark,parliamentary
-400,Djibouti,personal
-35,Dominica,parliamentary
-31,Dominican Rep,presidential
-608,East Timor,presidential
-113,Ecuador,presidential
-487,Egypt,military personal
-79,El Salvador,presidential
-257,Equatorial Guinea,personal
-404,Eritrea,party-personal
-220,Estonia,parliamentary
-403,Ethiopia,party-based
-622,Fiji,military personal
-237,Finland,parliamentary
-165,France,presidential
-348,Gabon,party-personal
-261,Gambia,presidential
-232,Georgia,parliamentary
-176,Germany,parliamentary
-178,Germany East,party-based
-333,Ghana,presidential
-209,Greece,parliamentary
-41,Grenada,parliamentary
-62,Guatemala,presidential
-303,Guinea,presidential
-254,Guinea Bissau,presidential
-100,Guyana,parliamentary
-23,Haiti,presidential
-72,Honduras,presidential
-185,Hungary,party-based
-241,Iceland,parliamentary
-541,India,parliamentary
-607,Indonesia,presidential
-465,Iran,party-based
-480,Iraq,parliamentary
-160,Ireland,parliamentary
-499,Israel,parliamentary
-190,Italy,parliamentary
-299,Ivory Coast,presidential
-32,Jamaica,parliamentary
-540,Japan,parliamentary
-498,Jordan,monarchy
-530,Kazakhstan,personal
-381,Kenya,presidential
-614,Kiribati,presidential
-534,Korea North,party-personal
-538,Korea South,presidential
-205,Kosovo,parliamentary
-509,Kuwait,monarchy
-528,Kyrgyzstan,presidential
-594,Laos,party-based
-221,Latvia,parliamentary
-497,Lebanon,parliamentary
-422,Lesotho,parliamentary
-317,Liberia,presidential
-452,Libya,civilian provisional
-167,Liechtenstein,monarchy
-222,Lithuania,parliamentary
-163,Luxembourg,parliamentary
-196,Macedonia,parliamentary
-430,Madagascar,presidential
-415,Malawi,presidential
-599,Malaysia,parliamentary
-569,Maldives,presidential
-269,Mali,provisional military
-192,Malta,parliamentary
-625,Marshall Islands,presidential
-286,Mauritania,personal
-436,Mauritius,parliamentary
-47,Mexico,presidential
-627,Micronesia,parliamentary
-213,Moldova,parliamentary
-166,Monaco,monarchy
-533,Mongolia,presidential
-195,Montenegro,parliamentary
-440,Morocco,monarchy
-406,Mozambique,party-based
-564,Myanmar,military
-418,Namibia,party-based
-624,Nauru,parliamentary
-574,Nepal,parliamentary
-161,Netherlands,parliamentary
-611,New Zealand,parliamentary
-83,Nicaragua,party-personal
-295,Niger,presidential
-347,Nigeria,presidential
-239,Norway,parliamentary
-513,Oman,monarchy
-551,Pakistan,parliamentary
-626,Palau,presidential
-92,Panama,presidential
-610,Papua New Guinea,parliamentary
-142,Paraguay,presidential
-122,Peru,presidential
-604,Philippines,presidential
-180,Poland,presidential
-175,Portugal,presidential
-511,Qatar,monarchy
-216,Romania,parliamentary
-219,Russia,personal
-395,Rwanda,party-military
-628,Samoa,parliamentary
-246,Sao Tome and Principe,parliamentary
-500,Saudi Arabia,monarchy
-271,Senegal,presidential
-201,Serbia,parliamentary
-439,Seychelles,party-based
-324,Sierra Leone,presidential
-600,Singapore,party-based
-189,Slovakia,parliamentary
-206,Slovenia,parliamentary
-613,Solomon Islands,parliamentary
-399,Somalia,provisional
-417,South Africa,parliamentary
-463,South Sudan,personal
-217,Soviet Union,party-based
-171,Spain,parliamentary
-567,Sri Lanka,presidential
-45,St Kitts and Nevis,parliamentary
-42,St Lucia,parliamentary
-43,St Vincent,parliamentary
-462,Sudan,civilian provisional
-105,Suriname,parliamentary
-424,Swaziland,monarchy
-238,Sweden,parliamentary
-168,Switzerland,parliamentary
-494,Syria,party-personal-military
-522,Tajikistan,personal
-383,Tanzania,party-based
-585,Thailand,military
-336,Togo,personal
-623,Tonga,monarchy
-33,Trinidad and Tobago,parliamentary
-448,Tunisia,presidential
-473,Turkey,party-personal
-521,Turkmenistan,party-personal
-615,Tuvalu,parliamentary
-159,UKG,parliamentary
-0,USA,presidential
-379,Uganda,personal
-223,Ukraine,presidential
-512,United Arab Emirates,monarchy
-158,Uruguay,presidential
-529,Uzbekistan,party-personal
-612,Vanuatu,parliamentary
-98,Venezuela,personal
-595,Vietnam,party-based
-597,Vietnam South,military
-507,Yemen,warlordism
-508,Yemen South,party-based
-199,Yugoslavia,party-based
-410,Zambia,presidential
-413,Zimbabwe,party-based
+,Country,democracy,government,political_violence
+0,Afghanistan,1.0,Presidential Democracy,26.597689
+6,Albania,1.0,Parliamentary Democracy,-0.3631553
+12,Algeria,1.0,Presidential Democracy,0.25416517
+18,Andorra,1.0,Parliamentary Democracy,-0.36428955
+24,Angola,0.0,Dominant Party,-0.20551167
+30,Antigua and Barbuda,1.0,Parliamentary Democracy,-0.36428955
+36,Argentina,1.0,Presidential Democracy,-0.34919688
+42,Armenia,1.0,Parliamentary Democracy,-0.35445473
+48,Australia,1.0,Parliamentary Democracy,-0.36443883
+54,Austria,1.0,Parliamentary Democracy,-0.36357394
+60,Azerbaijan,0.0,Personal Dictatorship,-0.14115031
+66,Bahamas,1.0,Parliamentary Democracy,-0.36422643
+72,Bahrain,0.0,Monarchy,-0.35800064
+78,Bangladesh,1.0,Parliamentary Democracy,-0.19729966
+84,Barbados,1.0,Parliamentary Democracy,-0.36011967
+90,Belarus,0.0,Personal Dictatorship,-0.3628476
+96,Belgium,1.0,Parliamentary Democracy,-0.33392093
+102,Belize,1.0,Parliamentary Democracy,-0.36413628
+108,Benin,1.0,Presidential Democracy,-0.36428955
+114,Bhutan,1.0,Parliamentary Democracy,-0.3620993
+120,Bolivia,1.0,Presidential Democracy,-0.35828438
+126,Bosnia,0.0,Foreign/Occupied,-0.35585514
+132,Botswana,0.0,Dominant Party,-0.36368248
+138,Brazil,1.0,Presidential Democracy,-0.03561659
+144,Brunei,0.0,Monarchy,-0.36428955
+150,Bulgaria,1.0,Parliamentary Democracy,-0.36310694
+157,Burkina Faso,1.0,Presidential Democracy,-0.25238052
+163,Burundi,0.0,Personal Dictatorship,-0.30139038
+169,Cambodia,0.0,Dominant Party,-0.28054062
+175,Cameroon,0.0,Personal Dictatorship,0.4730425
+181,Canada,1.0,Parliamentary Democracy,-0.3483454
+187,Cape Verde,1.0,Parliamentary Democracy,-0.36428955
+193,Cen African Rep,1.0,Presidential Democracy,1.2391392
+199,Chad,0.0,Personal Dictatorship,0.24292347
+206,Chile,1.0,Presidential Democracy,-0.3595031
+212,China,0.0,Dominant Party,0.0
+218,Colombia,1.0,Presidential Democracy,0.01124407
+224,Comoros,1.0,Presidential Democracy,-0.35770014
+230,Congo-Brz,0.0,Personal Dictatorship,-0.2822556
+236,Congo/Zaire,0.0,Personal Dictatorship,5.0444255
+242,Costa Rica,1.0,Presidential Democracy,-0.36381397
+248,Croatia,1.0,Parliamentary Democracy,-0.34104368
+254,Cuba,0.0,Party-Personal,-0.2795582
+260,Cyprus,0.0,Foreign/Occupied,-0.35982913
+266,Czech Rep,1.0,Parliamentary Democracy,-0.36423615
+272,Czechoslovakia,1.0,Parliamentary Democracy,-0.36135417
+285,Denmark,1.0,Parliamentary Democracy,-0.36424163
+291,Djibouti,0.0,Personal Dictatorship,-0.341328
+297,Dominica,1.0,Parliamentary Democracy,-0.36407736
+303,Dominican Rep,1.0,Presidential Democracy,-0.3609355
+309,East Timor,1.0,Presidential Democracy,-0.36294764
+315,Ecuador,1.0,Presidential Democracy,-0.36310217
+322,Egypt,0.0,Military-Personal,1.5187956
+328,El Salvador,1.0,Presidential Democracy,-0.35804498
+334,Equatorial Guinea,0.0,Personal Dictatorship,-0.36418563
+340,Eritrea,0.0,Party-Personal,-0.20154376
+346,Estonia,1.0,Parliamentary Democracy,-0.36398056
+353,Ethiopia,0.0,Dominant Party,0.15782273
+359,Fiji,0.0,Military-Personal,-0.36381513
+365,Finland,1.0,Parliamentary Democracy,-0.36382496
+371,France,1.0,Presidential Democracy,-0.21529666
+377,Gabon,0.0,Party-Personal,-0.36175314
+383,Gambia,1.0,Presidential Democracy,-0.36110866
+389,Georgia,1.0,Parliamentary Democracy,-0.32385784
+396,Germany,1.0,Parliamentary Democracy,-0.35523465
+402,Germany East,0.0,Dominant Party,-0.36428955
+412,Ghana,1.0,Presidential Democracy,-0.34957185
+418,Greece,1.0,Parliamentary Democracy,-0.2765236
+424,Grenada,1.0,Parliamentary Democracy,-0.3637089
+430,Guatemala,1.0,Presidential Democracy,-0.2702108
+436,Guinea,1.0,Presidential Democracy,-0.35018978
+442,Guinea Bissau,1.0,Presidential Democracy,-0.35563362
+448,Guyana,1.0,Parliamentary Democracy,-0.36232573
+454,Haiti,1.0,Presidential Democracy,-0.3427546
+460,Honduras,1.0,Presidential Democracy,-0.3559538
+466,Hungary,0.0,Dominant Party,-0.36402562
+472,Iceland,1.0,Parliamentary Democracy,-0.36428955
+478,India,1.0,Parliamentary Democracy,1.2826383
+484,Indonesia,1.0,Presidential Democracy,0.22789077
+490,Iran,0.0,Dominant Party,0.022721112
+496,Iraq,1.0,Parliamentary Democracy,26.407698
+502,Ireland,1.0,Parliamentary Democracy,-0.36019123
+508,Israel,1.0,Parliamentary Democracy,0.0
+514,Italy,1.0,Parliamentary Democracy,-0.35623568
+521,Ivory Coast,1.0,Presidential Democracy,-0.30222747
+527,Jamaica,1.0,Parliamentary Democracy,-0.3621707
+533,Japan,1.0,Parliamentary Democracy,-0.36333275
+539,Jordan,0.0,Monarchy,-0.35642362
+545,Kazakhstan,0.0,Personal Dictatorship,-0.36040887
+551,Kenya,1.0,Presidential Democracy,0.11641595
+557,Kiribati,1.0,Presidential Democracy,-0.36428955
+563,Korea North,0.0,Party-Personal,-0.36416283
+569,Korea South,1.0,Presidential Democracy,-0.3638672
+575,Kosovo,1.0,Parliamentary Democracy,-0.36437878
+582,Kuwait,0.0,Monarchy,-0.35659778
+588,Kyrgyzstan,0.0,Provisional - Civilian,-0.36166617
+595,Laos,0.0,Dominant Party,-0.303477
+602,Latvia,1.0,Parliamentary Democracy,-0.36409053
+608,Lebanon,1.0,Parliamentary Democracy,-0.024284594
+614,Lesotho,1.0,Parliamentary Democracy,-0.35899773
+620,Liberia,1.0,Presidential Democracy,-0.20520757
+626,Libya,0.0,Warlordism,1.7465991
+633,Liechtenstein,0.0,Monarchy,-0.36428955
+639,Lithuania,1.0,Parliamentary Democracy,-0.36419004
+645,Luxembourg,1.0,Parliamentary Democracy,-0.36428955
+651,Macedonia,1.0,Parliamentary Democracy,-0.35402685
+657,Madagascar,1.0,Presidential Democracy,-0.35985735
+663,Malawi,1.0,Presidential Democracy,-0.36254418
+669,Malaysia,1.0,Parliamentary Democracy,-0.33789346
+675,Maldives,1.0,Presidential Democracy,-0.36321235
+681,Mali,0.0,Provisional - Military,0.54586136
+688,Malta,1.0,Parliamentary Democracy,-0.36382192
+694,Marshall Islands,1.0,Presidential Democracy,-0.36428955
+700,Mauritania,0.0,Personal Dictatorship,-0.3632608
+706,Mauritius,1.0,Parliamentary Democracy,-0.36428955
+712,Mexico,1.0,Presidential Democracy,-0.042658456
+718,Micronesia,1.0,Parliamentary Democracy,-0.36428955
+724,Moldova,1.0,Parliamentary Democracy,-0.3547194
+731,Monaco,0.0,Monarchy,-0.36428955
+737,Mongolia,1.0,Presidential Democracy,-0.36428955
+743,Montenegro,1.0,Parliamentary Democracy,-0.36418083
+749,Morocco,0.0,Monarchy,-0.11573004
+755,Mozambique,0.0,Dominant Party,-0.20297831
+761,Myanmar,0.0,Party-Military,0.63356996
+768,Namibia,0.0,Dominant Party,-0.36108136
+774,Nauru,1.0,Parliamentary Democracy,-0.36428955
+780,Nepal,1.0,Parliamentary Democracy,0.30122933
+786,Netherlands,1.0,Parliamentary Democracy,-0.36315224
+792,New Zealand,1.0,Parliamentary Democracy,-0.36424732
+798,Nicaragua,0.0,Party-Personal,-0.26365313
+804,Niger,1.0,Presidential Democracy,-0.10306847
+811,Nigeria,1.0,Presidential Democracy,5.601076
+817,Norway,1.0,Parliamentary Democracy,-0.3609529
+823,Oman,0.0,Monarchy,-0.36146832
+829,Pakistan,1.0,Parliamentary Democracy,2.8151274
+835,Palau,1.0,Presidential Democracy,-0.36428955
+842,Panama,1.0,Presidential Democracy,-0.3582581
+848,Papua New Guinea,1.0,Parliamentary Democracy,-0.35732812
+854,Paraguay,1.0,Presidential Democracy,-0.35751036
+860,Peru,1.0,Presidential Democracy,-0.28932154
+866,Philippines,1.0,Presidential Democracy,1.3946486
+872,Poland,1.0,Presidential Democracy,-0.36395925
+878,Portugal,1.0,Presidential Democracy,-0.36421564
+884,Qatar,0.0,Monarchy,-0.36386588
+890,Romania,1.0,Parliamentary Democracy,-0.36098105
+896,Russia,0.0,Personal Dictatorship,0.020613354
+902,Rwanda,0.0,Party-Military,2.0408857
+908,Samoa,1.0,Parliamentary Democracy,-0.36428955
+914,San Marino,1.0,Parliamentary Democracy,-0.36428955
+921,Sao Tome and Principe,1.0,Parliamentary Democracy,-0.36428955
+927,Saudi Arabia,0.0,Monarchy,-0.32252997
+933,Senegal,1.0,Presidential Democracy,-0.34040192
+939,Serbia,1.0,Parliamentary Democracy,-0.0941459
+945,Seychelles,0.0,Dominant Party,-0.36428955
+951,Sierra Leone,1.0,Presidential Democracy,-0.23560628
+957,Singapore,0.0,Dominant Party,-0.36402023
+963,Slovakia,1.0,Parliamentary Democracy,-0.36382312
+970,Slovenia,1.0,Parliamentary Democracy,-0.36418656
+976,Solomon Islands,1.0,Parliamentary Democracy,-0.3639975
+982,Somalia,0.0,Provisional - Civilian,10.76591
+988,South Africa,1.0,Parliamentary Democracy,-0.07766751
+994,South Sudan,0.0,Personal Dictatorship,1.5183538
+1000,Soviet Union,0.0,Dominant Party,0.013738419
+1009,Spain,1.0,Parliamentary Democracy,-0.30955505
+1015,Sri Lanka,1.0,Presidential Democracy,-0.28922236
+1021,St Kitts and Nevis,1.0,Parliamentary Democracy,-0.36428955
+1027,St Lucia,1.0,Parliamentary Democracy,-0.3641446
+1033,St Vincent,1.0,Parliamentary Democracy,-0.36428955
+1039,Sudan,0.0,Provisional - Civilian,1.9499922
+1045,Suriname,1.0,Parliamentary Democracy,-0.3603666
+1051,Swaziland,0.0,Monarchy,-0.3639402
+1057,Sweden,1.0,Parliamentary Democracy,-0.3636597
+1063,Switzerland,1.0,Parliamentary Democracy,-0.36112186
+1070,Syria,0.0,Party-Personal-Military Hybrid,10.473538
+1076,Tajikistan,0.0,Personal Dictatorship,-0.18936597
+1082,Tanzania,0.0,Dominant Party,-0.3562382
+1089,Thailand,0.0,Military,-0.01016395
+1095,Togo,0.0,Personal Dictatorship,-0.3562664
+1101,Tonga,0.0,Monarchy,-0.36428955
+1107,Trinidad and Tobago,1.0,Parliamentary Democracy,-0.36153638
+1113,Tunisia,1.0,Presidential Democracy,-0.3431917
+1119,Turkey,0.0,Party-Personal,3.2555397
+1125,Turkmenistan,0.0,Party-Personal,-0.36399102
+1131,Tuvalu,1.0,Parliamentary Democracy,-0.36428955
+1137,UKG,1.0,Parliamentary Democracy,-0.25206128
+1143,USA,1.0,Presidential Democracy,0.0
+1150,Uganda,0.0,Personal Dictatorship,0.28108308
+1156,Ukraine,1.0,Presidential Democracy,1.4563278
+1162,United Arab Emirates,0.0,Monarchy,-0.35684127
+1168,Uruguay,1.0,Presidential Democracy,-0.3621181
+1174,Uzbekistan,0.0,Party-Personal,-0.34665602
+1180,Vanuatu,1.0,Parliamentary Democracy,-0.36428955
+1186,Venezuela,0.0,Personal Dictatorship,-0.34839875
+1192,Vietnam,0.0,Dominant Party,-0.32296687
+1198,Vietnam South,0.0,Military,-0.36428955
+1203,Yemen,0.0,Warlordism,1.5228071
+1209,Yemen South,0.0,Dominant Party,-0.36428955
+1214,Yugoslavia,0.0,Dominant Party,-0.36428955
+1220,Zambia,1.0,Presidential Democracy,-0.36239898
+1226,Zimbabwe,0.0,Dominant Party,-0.32113254
