@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Data Preprocessing &#8212; Lloydster25.github.io</title>
+    <title>&lt;no title&gt; &#8212; Lloydster25.github.io</title>
   
   
   
@@ -62,10 +62,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/preprocess';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/index';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="index.html" />
+    <link rel="next" title="Data Preprocessing" href="preprocess.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -131,7 +131,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="index.html">
+<a class="navbar-brand logo" href="#">
   
   
   
@@ -144,14 +144,14 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="index.html">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
                     <no title>
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Preprocessing</a></li>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="preprocess.html">Data Preprocessing</a></li>
 </ul>
 
     </div>
@@ -198,37 +198,6 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<div class="dropdown dropdown-launch-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
-    <i class="fas fa-rocket"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://colab.research.google.com/github/Lloydster25/Lloydster25.github.io/blob/main/docs/docs/preprocess.ipynb" target="_blank"
-   class="btn btn-sm dropdown-item"
-   title="Launch onColab"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  
-    <img src="../_static/images/logo_colab.png">
-  </span>
-<span class="btn__text-container">Colab</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
-
-
-
-
-
 <div class="dropdown dropdown-source-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
     <i class="fab fa-github"></i>
@@ -254,7 +223,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/Lloydster25/Lloydster25.github.io/issues/new?title=Issue%20on%20page%20%2Fdocs/preprocess.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/Lloydster25/Lloydster25.github.io/issues/new?title=Issue%20on%20page%20%2Fdocs/index.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +253,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/docs/preprocess.ipynb" target="_blank"
+      <li><a href="../_sources/docs/index.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -294,7 +263,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -353,7 +322,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -364,7 +335,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Data Preprocessing</h1>
+    <h1><no title></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,123 +349,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="data-preprocessing">
-<h1>Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Permalink to this heading">#</a></h1>
-<p>Student names: Julian Landeweerd, Lloyd de Rouw, Mitch Boontjes</p>
-<p>Team number: 58/J4</p>
-<p>The following code is used to preprocess the datasets into files that are used for the data story.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 1</span>
-
-<span class="c1"># Step 1: Import necessary libraries</span>
-<span class="c1"># import pandas as pd</span>
-<span class="c1"># import numpy as np</span>
-
-<span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/human_development.csv&#39;)</span>
-<span class="c1"># df1 = df1[[&#39;Country&#39;,&#39;Human Development Index (HDI)&#39;]]</span>
-<span class="c1"># df2 = pd.read_csv(&#39;docs/databases/gender_development.csv&#39;)</span>
-<span class="c1"># df2 = df2[[&#39;Country&#39;,&#39;Gender Development Index (GDI)&#39;]]</span>
-<span class="c1"># df3 = pd.read_csv(&#39;docs/databases/suiciderateall.csv&#39;)</span>
-<span class="c1"># df3 = df3[[&#39;Country&#39;, &#39;2015&#39;]]</span>
-<span class="c1"># df3 = df3.rename(columns={&#39;2015&#39;: &#39;Average suicide 2015&#39;})</span>
-
-<span class="c1"># Step 3: merge </span>
-<span class="c1"># df = pd.merge(df, df2, on=&#39;Country&#39;)</span>
-<span class="c1"># df = pd.merge(df, df3, on=&#39;Country&#39;)</span>
-
-<span class="c1"># Step 4: Process the data for visualizations</span>
-<span class="c1"># df = df.rename(columns={&#39;Gender Development Index (GDI)&#39;: &#39;GDI 2015&#39;, </span>
-<span class="c1">#     &#39;Human Development Index (HDI)&#39;: &#39;HDI 2015&#39;})</span>
-<span class="c1"># df = df.replace(&#39;..&#39;, np.nan).dropna()</span>
-
-<span class="c1"># Step 5: Save the results into files</span>
-<span class="c1"># df.to_csv(&#39;databases/IV DATASET 1.csv&#39;, index=False)</span>
-</pre></div>
+  <iframe src="https://nbviewer.jupyter.org/github/lloydster25/lloydster25.github.io/blob/main/index.ipynb" height="1000px" width="100%" frameborder="0"></iframe>
+<div class="toctree-wrapper compound">
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Female and Male Suicide Datasets (DATASETS 2,3)</span>
-
-<span class="c1"># Step 1: Import necessary libraries</span>
-<span class="c1"># import pandas as pd</span>
-
-<span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df = pd.read_csv(&#39;docs/databases/Age-standardized suicide rates.csv&#39;)</span>
-<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
-<span class="c1"># df1 = df1[[&#39;Country&#39;, &#39;GDI 2015&#39;, &#39;HDI 2015&#39;]]</span>
-
-<span class="c1"># Step 3: merge </span>
-<span class="c1"># df = pd.merge(df, df1, on=&#39;Country&#39;)</span>
-
-<span class="c1"># Step 4: Process the data for visualizations</span>
-<span class="c1"># df[&#39;Sex&#39;] = df[&#39;Sex&#39;].str.replace(&#39;female&#39;, &#39;F&#39;).str.replace(&#39;male&#39;, &#39;M&#39;)</span>
-<span class="c1"># female_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;fem&#39;, case=False)]</span>
-<span class="c1"># male_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;male&#39;, case=False)]</span>
-
-<span class="c1"># Step 5: Save the results into files</span>
-<span class="c1"># female_suicides.to_csv(&#39;docs/databases/female_suicides.csv&#39;)</span>
-<span class="c1"># male_suicides.to_csv(&#39;docs/databases/male_suicides.csv&#39;)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 4</span>
-
-<span class="c1"># Step 1: Import necessary libraries</span>
-<span class="c1"># import pandas as pd</span>
-
-<span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df = pd.read_csv(&#39;docs/databases/REIGN_2021_6.csv&#39;)</span>
-<span class="c1"># df = df[[&#39;country&#39;, &#39;year&#39;, &#39;gov_democracy&#39;, &#39;government&#39;, &#39;political_violence&#39;]]</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Russia&#39;, &#39;Russian Federation&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;USA&#39;, &#39;United States&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;UKG&#39;, &#39;United Kingdom&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Congo-Brz&#39;, &#39;Congo&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;St.Lucia&#39;, &#39;Saint Lucia&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Dominican Rep&#39;, &#39;Dominican Republic&#39;)</span>
-<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Central African Rep&#39;, &#39;Central African Republic&#39;)</span>
-<span class="c1"># df_most_recent = df.groupby(&#39;country&#39;)[&#39;year&#39;].max().reset_index()</span>
-
-<span class="c1"># Step 3: merge </span>
-<span class="c1"># df = pd.merge(df_most_recent, df, on=[&#39;country&#39;, &#39;year&#39;], how=&#39;left&#39;).drop_duplicates(subset=(&#39;country&#39;))</span>
-
-<span class="c1"># Step 4: Process the data for visualizations</span>
-<span class="c1"># df = df.rename(columns={&#39;country&#39;: &#39;Country&#39;, &#39;gov_democracy&#39;: &#39;democracy&#39;})</span>
-<span class="c1"># df = df[[&#39;Country&#39;, &#39;democracy&#39;, &#39;government&#39;, &#39;political_violence&#39;]]</span>
-
-<span class="c1"># Step 5: Save the results into files</span>
-<span class="c1"># df.to_csv(&#39;docs/databases/IV DATASET 3.csv&#39;, index=False)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Main Dataset</span>
-
-<span class="c1"># Step 1: Import necessary libraries</span>
-<span class="c1"># import pandas as pd</span>
-
-<span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
-<span class="c1"># df2 = pd.read_csv(&#39;docs/databases/IV DATASET 3.csv&#39;)</span>
-
-<span class="c1"># Step 3: merge </span>
-<span class="c1"># df = pd.merge(df1, df2, on=&#39;Country&#39;)</span>
-
-<span class="c1"># Step 4: Save the results into files</span>
-<span class="c1"># df.to_csv(&#39;docs/databases/FINAL DATASET.csv&#39;)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -527,14 +384,14 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="index.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
+    <a class="right-next"
+       href="preprocess.html"
+       title="next page">
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Preprocessing</p>
       </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div></div>
   
