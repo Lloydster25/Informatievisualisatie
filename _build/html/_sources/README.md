@@ -1,5 +1,10 @@
 # data-story-example
 
-This repository hosts an example that shows the format of the data story for the information visualization course at the Informatics Institute, University of Amsterdam.
+This is the Repository of Mitch, Lloyd, and Julian, group J4 / 58
 
-Credit: the format example is originally created by [Roan van Blanken](https://github.com/roanvanblanken) and later edited by [Yen-Chia Hsu](https://github.com/yenchiah).
+Repository link: https://github.com/Lloydster25/Lloydster25.github.io
+
+Github page URL: https://lloydster25.github.io/
+
+NOTE: The interactive worldmap has a button to switch from HDI to suicides/100k.
+      This only works in notebook, because of the limitations on github pages.
