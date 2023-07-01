@@ -338,27 +338,34 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 2</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Female and Male Suicide Datasets (DATASETS 2,3)</span>
 
 <span class="c1"># Step 1: Import necessary libraries</span>
 <span class="c1"># import pandas as pd</span>
 
 <span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df = pd.read_csv(&#39;databases/suiciderateall.csv&#39;)</span>
+<span class="c1"># df = pd.read_csv(&#39;docs/databases/Age-standardized suicide rates.csv&#39;)</span>
+<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
+<span class="c1"># df1 = df1[[&#39;Country&#39;, &#39;GDI 2015&#39;, &#39;HDI 2015&#39;]]</span>
 
-<span class="c1"># Step 3: Process the data for visualizations</span>
-<span class="c1"># df_restructured = df.melt(id_vars=&#39;Country&#39;, var_name=&#39;Year&#39;, value_name=&#39;Suicides/100k&#39;)</span>
-<span class="c1"># df_restructured = df_restructured.sort_values([&#39;Country&#39;, &#39;Year&#39;]).reset_index(drop=True)</span>
+<span class="c1"># Step 3: merge </span>
+<span class="c1"># df = pd.merge(df, df1, on=&#39;Country&#39;)</span>
 
-<span class="c1"># Step 4: Save the results into files</span>
-<span class="c1"># df_restructured.to_csv(&#39;docs/databases/IV DATASET 2.csv&#39;)</span>
+<span class="c1"># Step 4: Process the data for visualizations</span>
+<span class="c1"># df[&#39;Sex&#39;] = df[&#39;Sex&#39;].str.replace(&#39;female&#39;, &#39;F&#39;).str.replace(&#39;male&#39;, &#39;M&#39;)</span>
+<span class="c1"># female_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;fem&#39;, case=False)]</span>
+<span class="c1"># male_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;male&#39;, case=False)]</span>
+
+<span class="c1"># Step 5: Save the results into files</span>
+<span class="c1"># female_suicides.to_csv(&#39;docs/databases/female_suicides.csv&#39;)</span>
+<span class="c1"># male_suicides.to_csv(&#39;docs/databases/male_suicides.csv&#39;)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 3</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 4</span>
 
 <span class="c1"># Step 1: Import necessary libraries</span>
 <span class="c1"># import pandas as pd</span>
@@ -384,33 +391,6 @@ document.write(`
 
 <span class="c1"># Step 5: Save the results into files</span>
 <span class="c1"># df.to_csv(&#39;docs/databases/IV DATASET 3.csv&#39;, index=False)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Female and Male Suicide Datasets (DATASETS 4,5)</span>
-
-<span class="c1"># Step 1: Import necessary libraries</span>
-<span class="c1"># import pandas as pd</span>
-
-<span class="c1"># Step 2: Import and filter data </span>
-<span class="c1"># df = pd.read_csv(&#39;docs/databases/Age-standardized suicide rates.csv&#39;)</span>
-<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
-<span class="c1"># df1 = df1[[&#39;Country&#39;, &#39;GDI 2015&#39;, &#39;HDI 2015&#39;]]</span>
-
-<span class="c1"># Step 3: merge </span>
-<span class="c1"># df = pd.merge(df, df1, on=&#39;Country&#39;)</span>
-
-<span class="c1"># Step 4: Process the data for visualizations</span>
-<span class="c1"># df[&#39;Sex&#39;] = df[&#39;Sex&#39;].str.replace(&#39;female&#39;, &#39;F&#39;).str.replace(&#39;male&#39;, &#39;M&#39;)</span>
-<span class="c1"># female_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;fem&#39;, case=False)]</span>
-<span class="c1"># male_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;male&#39;, case=False)]</span>
-
-<span class="c1"># Step 5: Save the results into files</span>
-<span class="c1"># female_suicides.to_csv(&#39;docs/databases/female_suicides.csv&#39;)</span>
-<span class="c1"># male_suicides.to_csv(&#39;docs/databases/male_suicides.csv&#39;)</span>
 </pre></div>
 </div>
 </div>
