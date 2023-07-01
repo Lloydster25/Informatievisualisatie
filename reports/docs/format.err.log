@@ -1,0 +1,116 @@
+Traceback (most recent call last):
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/lloyd/miniconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import geopandas as gpd
+import pandas as pd
+import plotly.express as px
+from ipywidgets import interact
+
+# Step 3: Load the shapefile or GeoJSON file
+shapefile_path = 'countries_map/countries.shp'
+shapefile_data = gpd.read_file(shapefile_path)
+
+# Step 4: Load the CSV data
+csv_file_path = 'databases/FINAL DATASET.csv'
+csv_data = pd.read_csv(csv_file_path)
+
+# Renaming Countries in shapefile data that they match to our .csv file
+shapefile_data.loc[shapefile_data['NAME'] == 'United States of America', 'NAME'] = 'United States'
+shapefile_data.loc[shapefile_data['NAME'] == 'Russia', 'NAME'] = 'Russian Federation'
+shapefile_data.loc[shapefile_data['NAME'] == 'Dem. Rep. Congo', 'NAME'] = 'Congo (Democratic Republic of the)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Iran', 'NAME'] = 'Iran (Islamic Republic of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Tanzania', 'NAME'] = 'Tanzania (United Republic of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'South Korea', 'NAME'] = 'Korea (Republic of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Venezuela', 'NAME'] = 'Venezuela (Bolivarian Republic of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Bolivia', 'NAME'] = 'Bolivia (Plurinational State of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Venezuela', 'NAME'] = 'Venezuela (Bolivarian Republic of)'
+shapefile_data.loc[shapefile_data['NAME'] == 'Laos', 'NAME'] = "Lao People's Democratic Republic"
+
+# Step 5: Merge shapefile data with CSV data using country names
+merged_data = shapefile_data.merge(csv_data, left_on='NAME', right_on='Country', how='left')
+
+# Step 6: Remove outliers based on IQR
+Q1 = merged_data['Average suicide 2015'].quantile(0.25)
+Q3 = merged_data['Average suicide 2015'].quantile(0.90)
+IQR = Q3 - Q1
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+filtered_data = merged_data[
+    (merged_data['Average suicide 2015'] >= lower_bound) &
+    (merged_data['Average suicide 2015'] <= upper_bound)
+]
+
+# Define the function to update the map based on the selected index
+def update_map(index):
+    if index == 0:
+        column_name = 'HDI 2015'
+        title = 'HDI 2015 Worldwide'
+    elif index == 1:
+        column_name = 'GDI 2015'
+        title = 'GDI 2015 Worldwide'
+    elif index == 2:
+        column_name = 'Average suicide 2015'
+        title = 'Average Suicides/100k Worldwide, 2015'
+    
+    fig = px.choropleth(
+        filtered_data,
+        geojson=filtered_data.geometry,
+        locations=filtered_data.index,
+        color=column_name,
+        color_continuous_scale='YlOrRd',
+        range_color=(filtered_data[column_name].min(), filtered_data[column_name].max()),
+        projection="natural earth"
+    )
+    
+    fig.update_layout(
+        title=title,
+        coloraxis_colorbar=dict(
+            title=column_name,
+            len=0.8,
+            thickness=20,
+            ypad=0,
+            yanchor="top",
+            ticks="outside",
+            tickvals=[filtered_data[column_name].min(), filtered_data[column_name].max()],
+            ticktext=[str(filtered_data[column_name].min()), str(filtered_data[column_name].max())]
+        ),
+        geo=dict(
+            showframe=False,
+            showcoastlines=False,
+            projection_type="natural earth"
+        )
+    )
+
+    fig.show()
+
+# Use the interact function to create the interactive widget
+interact(update_map, index=[('HDI', 0), ('GDI', 1), ('Average Suicides/100k', 2)])
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[3], line 1[0m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mgeopandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mgpd[39;00m
+[1;32m      2[0m [38;5;28;01mimport[39;00m [38;5;21;01mpandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
+[1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mplotly[39;00m[38;5;21;01m.[39;00m[38;5;21;01mexpress[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpx[39;00m
+
+[0;31mModuleNotFoundError[0m: No module named 'geopandas'
+
