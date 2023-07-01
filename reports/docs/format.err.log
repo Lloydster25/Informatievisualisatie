@@ -28,7 +28,7 @@ shapefile_path = 'countries_map/countries.shp'
 shapefile_data = gpd.read_file(shapefile_path)
 
 # Step 4: Load the CSV data
-csv_file_path = 'databases/FINAL DATASET.csv'
+csv_file_path = 'databases/IV DATASET 1.csv'
 csv_data = pd.read_csv(csv_file_path)
 
 # Renaming Countries in shapefile data that they match to our .csv file
@@ -63,9 +63,6 @@ def update_map(index):
         column_name = 'HDI 2015'
         title = 'HDI 2015 Worldwide'
     elif index == 1:
-        column_name = 'GDI 2015'
-        title = 'GDI 2015 Worldwide'
-    elif index == 2:
         column_name = 'Average suicide 2015'
         title = 'Average Suicides/100k Worldwide, 2015'
     
@@ -101,13 +98,13 @@ def update_map(index):
     fig.show()
 
 # Use the interact function to create the interactive widget
-interact(update_map, index=[('HDI', 0), ('GDI', 1), ('Average Suicides/100k', 2)])
+interact(update_map, index=[('HDI', 0), ('Average Suicides/100k', 1)])
 ------------------
 
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Cell [0;32mIn[3], line 1[0m
+Cell [0;32mIn[4], line 1[0m
 [0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mgeopandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mgpd[39;00m
 [1;32m      2[0m [38;5;28;01mimport[39;00m [38;5;21;01mpandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
 [1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mplotly[39;00m[38;5;21;01m.[39;00m[38;5;21;01mexpress[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpx[39;00m
