@@ -1,0 +1,141 @@
+,Country,HDI 2015,GDI 2015,Average suicide 2015,democracy,government,political_violence
+0,Norway,0.944,0.996,10.6,1.0,Parliamentary Democracy,-0.3609529
+1,Australia,0.935,0.976,11.8,1.0,Parliamentary Democracy,-0.36443883
+2,Switzerland,0.93,0.95,10.5,1.0,Parliamentary Democracy,-0.36112186
+3,Denmark,0.923,0.977,8.1,1.0,Parliamentary Democracy,-0.36424163
+4,Netherlands,0.922,0.947,9.3,1.0,Parliamentary Democracy,-0.36315224
+5,Germany,0.916,0.963,9.0,1.0,Parliamentary Democracy,-0.35523465
+6,Ireland,0.916,0.973,8.7,1.0,Parliamentary Democracy,-0.36019123
+7,United States,0.915,0.995,12.9,1.0,Presidential Democracy,0.0
+8,Canada,0.913,0.982,11.2,1.0,Parliamentary Democracy,-0.3483454
+9,New Zealand,0.913,0.961,11.1,1.0,Parliamentary Democracy,-0.36424732
+10,Singapore,0.912,0.985,7.6,0.0,Dominant Party,-0.36402023
+11,Sweden,0.907,0.999,13.0,1.0,Parliamentary Democracy,-0.3636597
+12,United Kingdom,0.907,0.965,7.8,1.0,Parliamentary Democracy,-0.25206128
+13,Iceland,0.899,0.975,13.2,1.0,Parliamentary Democracy,-0.36428955
+14,Israel,0.894,0.971,4.5,1.0,Parliamentary Democracy,0.0
+15,Luxembourg,0.892,0.971,9.6,1.0,Parliamentary Democracy,-0.36428955
+16,Japan,0.891,0.961,14.9,1.0,Parliamentary Democracy,-0.36333275
+17,Belgium,0.89,0.975,14.4,1.0,Parliamentary Democracy,-0.33392093
+18,France,0.888,0.987,11.5,1.0,Presidential Democracy,-0.21529666
+19,Austria,0.885,0.943,11.4,1.0,Parliamentary Democracy,-0.36357394
+20,Finland,0.883,0.996,12.1,1.0,Parliamentary Democracy,-0.36382496
+21,Slovenia,0.88,0.996,14.8,1.0,Parliamentary Democracy,-0.36418656
+22,Spain,0.876,0.975,5.6,1.0,Parliamentary Democracy,-0.30955505
+23,Italy,0.873,0.964,4.8,1.0,Parliamentary Democracy,-0.35623568
+24,Greece,0.865,0.961,3.8,1.0,Parliamentary Democracy,-0.2765236
+25,Estonia,0.861,1.03,13.4,1.0,Parliamentary Democracy,-0.36398056
+26,Cyprus,0.85,0.971,4.2,0.0,Foreign/Occupied,-0.35982913
+27,Qatar,0.85,0.998,4.9,0.0,Monarchy,-0.36386588
+28,Slovakia,0.844,0.999,9.8,1.0,Parliamentary Democracy,-0.36382312
+29,Poland,0.843,1.007,13.2,1.0,Presidential Democracy,-0.36395925
+30,Lithuania,0.839,1.03,28.9,1.0,Parliamentary Democracy,-0.36419004
+31,Malta,0.839,0.937,6.6,1.0,Parliamentary Democracy,-0.36382192
+32,Saudi Arabia,0.837,0.901,6.0,0.0,Monarchy,-0.32252997
+33,Argentina,0.836,0.982,8.1,1.0,Presidential Democracy,-0.34919688
+34,United Arab Emirates,0.835,0.954,5.3,0.0,Monarchy,-0.35684127
+35,Chile,0.832,0.967,9.2,1.0,Presidential Democracy,-0.3595031
+36,Portugal,0.83,0.985,8.3,1.0,Presidential Democracy,-0.36421564
+37,Hungary,0.828,0.976,14.6,0.0,Dominant Party,-0.36402562
+38,Bahrain,0.824,0.94,6.3,0.0,Monarchy,-0.35800064
+39,Latvia,0.819,1.029,17.1,1.0,Parliamentary Democracy,-0.36409053
+40,Croatia,0.818,0.987,12.2,1.0,Parliamentary Democracy,-0.34104368
+41,Kuwait,0.816,0.972,2.4,0.0,Monarchy,-0.35659778
+42,Montenegro,0.802,0.954,16.3,1.0,Parliamentary Democracy,-0.36418083
+43,Belarus,0.798,1.021,19.6,0.0,Personal Dictatorship,-0.3628476
+44,Russian Federation,0.798,1.019,27.9,0.0,Personal Dictatorship,0.020613354
+45,Oman,0.793,0.909,4.7,0.0,Monarchy,-0.36146832
+46,Uruguay,0.793,1.018,16.7,1.0,Presidential Democracy,-0.3621181
+47,Kazakhstan,0.788,1.002,23.4,0.0,Personal Dictatorship,-0.36040887
+48,Barbados,0.785,1.018,0.3,1.0,Parliamentary Democracy,-0.36011967
+49,Bulgaria,0.782,0.991,6.8,1.0,Parliamentary Democracy,-0.36310694
+50,Panama,0.78,0.996,3.0,1.0,Presidential Democracy,-0.3582581
+51,Malaysia,0.779,0.947,5.2,1.0,Parliamentary Democracy,-0.33789346
+52,Mauritius,0.777,0.95,7.5,1.0,Parliamentary Democracy,-0.36428955
+53,Trinidad and Tobago,0.772,0.985,9.5,1.0,Parliamentary Democracy,-0.36153638
+54,Serbia,0.771,0.966,11.7,1.0,Parliamentary Democracy,-0.0941459
+55,Cuba,0.769,0.954,10.4,0.0,Party-Personal,-0.2795582
+56,Lebanon,0.769,0.899,2.9,1.0,Parliamentary Democracy,-0.024284594
+57,Costa Rica,0.766,0.974,6.4,1.0,Presidential Democracy,-0.36381397
+58,Turkey,0.761,0.902,2.3,0.0,Party-Personal,3.2555397
+59,Sri Lanka,0.757,0.948,14.7,1.0,Presidential Democracy,-0.28922236
+60,Mexico,0.756,0.943,5.6,1.0,Presidential Democracy,-0.042658456
+61,Brazil,0.755,0.997,5.6,1.0,Presidential Democracy,-0.03561659
+62,Georgia,0.754,0.962,8.8,1.0,Parliamentary Democracy,-0.32385784
+63,Azerbaijan,0.751,0.942,4.0,0.0,Personal Dictatorship,-0.14115031
+64,Jordan,0.748,0.86,1.9,0.0,Monarchy,-0.35642362
+65,Ukraine,0.747,1.003,17.9,1.0,Presidential Democracy,1.4563278
+66,Algeria,0.736,0.837,2.7,1.0,Presidential Democracy,0.25416517
+67,Peru,0.734,0.947,2.8,1.0,Presidential Democracy,-0.28932154
+68,Albania,0.733,0.948,4.2,1.0,Parliamentary Democracy,-0.3631553
+69,Armenia,0.733,1.008,4.7,1.0,Parliamentary Democracy,-0.35445473
+70,Ecuador,0.732,0.98,8.9,1.0,Presidential Democracy,-0.36310217
+71,China,0.727,0.943,7.1,0.0,Dominant Party,0.0
+72,Fiji,0.727,0.941,10.0,0.0,Military-Personal,-0.36381513
+73,Mongolia,0.727,1.028,19.7,1.0,Presidential Democracy,-0.36428955
+74,Thailand,0.726,1.0,7.2,0.0,Military,-0.01016395
+75,Libya,0.724,0.95,5.5,0.0,Warlordism,1.7465991
+76,Tunisia,0.721,0.894,3.0,1.0,Presidential Democracy,-0.3431917
+77,Colombia,0.72,0.997,4.0,1.0,Presidential Democracy,0.01124407
+78,Jamaica,0.719,0.995,2.2,1.0,Parliamentary Democracy,-0.3621707
+79,Tonga,0.717,0.967,5.3,0.0,Monarchy,-0.36428955
+80,Belize,0.715,0.958,6.9,1.0,Parliamentary Democracy,-0.36413628
+81,Dominican Republic,0.715,0.995,6.8,1.0,Presidential Democracy,-0.3609355
+82,Suriname,0.714,0.975,25.9,1.0,Parliamentary Democracy,-0.3603666
+83,Maldives,0.706,0.937,3.0,1.0,Presidential Democracy,-0.36321235
+84,Samoa,0.702,0.956,14.9,1.0,Parliamentary Democracy,-0.36428955
+85,Botswana,0.698,0.982,24.5,0.0,Dominant Party,-0.36368248
+86,Egypt,0.69,0.868,3.7,0.0,Military-Personal,1.5187956
+87,Indonesia,0.684,0.927,2.6,1.0,Presidential Democracy,0.22789077
+88,Paraguay,0.679,0.956,5.9,1.0,Presidential Democracy,-0.35751036
+89,Uzbekistan,0.675,0.945,9.2,0.0,Party-Personal,-0.34665602
+90,Philippines,0.668,0.977,2.7,1.0,Presidential Democracy,1.3946486
+91,El Salvador,0.666,0.965,6.8,1.0,Presidential Democracy,-0.35804498
+92,South Africa,0.666,0.948,25.6,1.0,Parliamentary Democracy,-0.07766751
+93,Kyrgyzstan,0.655,0.961,10.9,0.0,Provisional - Civilian,-0.36166617
+94,Iraq,0.654,0.787,5.4,1.0,Parliamentary Democracy,26.407698
+95,Guyana,0.636,0.984,39.3,1.0,Parliamentary Democracy,-0.36232573
+96,Nicaragua,0.631,0.96,4.5,0.0,Party-Personal,-0.26365313
+97,Morocco,0.628,0.828,7.6,0.0,Monarchy,-0.11573004
+98,Namibia,0.628,0.981,16.3,0.0,Dominant Party,-0.36108136
+99,Guatemala,0.627,0.949,6.4,1.0,Presidential Democracy,-0.2702108
+100,Tajikistan,0.624,0.926,5.2,0.0,Personal Dictatorship,-0.18936597
+101,India,0.609,0.795,12.9,1.0,Parliamentary Democracy,1.2826383
+102,Honduras,0.606,0.944,4.6,1.0,Presidential Democracy,-0.3559538
+103,Bhutan,0.605,0.897,5.2,1.0,Parliamentary Democracy,-0.3620993
+104,Vanuatu,0.594,0.903,21.2,1.0,Parliamentary Democracy,-0.36428955
+105,Congo,0.591,0.922,12.5,0.0,Personal Dictatorship,-0.2822556
+106,Zambia,0.586,0.917,17.3,1.0,Presidential Democracy,-0.36239898
+107,Ghana,0.579,0.885,12.0,1.0,Presidential Democracy,-0.34957185
+108,Bangladesh,0.57,0.917,3.6,1.0,Parliamentary Democracy,-0.19729966
+109,Cambodia,0.555,0.89,5.8,0.0,Dominant Party,-0.28054062
+110,Kenya,0.548,0.913,10.6,1.0,Presidential Democracy,0.11641595
+111,Nepal,0.548,0.908,9.8,1.0,Parliamentary Democracy,0.30122933
+112,Pakistan,0.538,0.726,10.0,1.0,Parliamentary Democracy,2.8151274
+113,Nigeria,0.514,0.841,7.3,1.0,Presidential Democracy,5.601076
+114,Cameroon,0.512,0.879,17.1,0.0,Personal Dictatorship,0.4730425
+115,Madagascar,0.51,0.945,9.5,1.0,Presidential Democracy,-0.35985735
+116,Zimbabwe,0.509,0.922,30.7,0.0,Dominant Party,-0.32113254
+117,Mauritania,0.506,0.816,5.3,0.0,Personal Dictatorship,-0.3632608
+118,Comoros,0.503,0.813,8.8,1.0,Presidential Democracy,-0.35770014
+119,Yemen,0.498,0.739,6.8,0.0,Warlordism,1.5228071
+120,Lesotho,0.497,0.953,114.5,1.0,Parliamentary Democracy,-0.35899773
+121,Togo,0.484,0.831,16.7,0.0,Personal Dictatorship,-0.3562664
+122,Rwanda,0.483,0.957,9.9,0.0,Party-Military,2.0408857
+123,Uganda,0.483,0.886,11.0,0.0,Personal Dictatorship,0.28108308
+124,Benin,0.48,0.823,13.4,1.0,Presidential Democracy,-0.36428955
+125,Sudan,0.479,0.83,4.9,0.0,Provisional - Civilian,1.9499922
+126,Senegal,0.466,0.883,11.8,1.0,Presidential Democracy,-0.34040192
+127,Afghanistan,0.465,0.6,6.0,1.0,Presidential Democracy,26.597689
+128,Malawi,0.445,0.907,12.6,1.0,Presidential Democracy,-0.36254418
+129,Ethiopia,0.442,0.84,10.0,0.0,Dominant Party,0.15782273
+130,Gambia,0.441,0.889,10.3,1.0,Presidential Democracy,-0.36110866
+131,Liberia,0.43,0.789,7.7,1.0,Presidential Democracy,-0.20520757
+132,Mali,0.419,0.776,8.5,0.0,Provisional - Military,0.54586136
+133,Mozambique,0.416,0.881,24.0,0.0,Dominant Party,-0.20297831
+134,Sierra Leone,0.413,0.814,10.5,1.0,Presidential Democracy,-0.23560628
+135,Guinea,0.411,0.778,13.0,1.0,Presidential Democracy,-0.35018978
+136,Burkina Faso,0.402,0.881,15.4,1.0,Presidential Democracy,-0.25238052
+137,Burundi,0.4,0.911,12.8,0.0,Personal Dictatorship,-0.30139038
+138,Chad,0.392,0.768,14.0,0.0,Personal Dictatorship,0.24292347
+139,Niger,0.348,0.729,10.4,1.0,Presidential Democracy,-0.10306847
