@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 df = pd.read_csv('docs/databases/Age-standardized suicide rates.csv')
 df1 = pd.read_csv('docs/databases/IV DATASET 1.csv')

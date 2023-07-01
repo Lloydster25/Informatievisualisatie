@@ -301,32 +301,136 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="data-preprocessing">
 <h1>Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Permalink to this heading">#</a></h1>
-<p>Student names: FIRST_STUDENT, SECOND_STUDENT, THIRD_STUDENT, FORTH_STUDENT</p>
-<p>Team number: YOUR_REGISTERED_TEAM_NUMBER_ON_CANVAS</p>
+<p>Student names: Julian Landeweerd, Lloyd de Rouw, Mitch Boontjes</p>
+<p>Team number: 58/J4</p>
 <p>The following code is used to preprocess the datasets into files that are used for the data story.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Step 1: Import necessary libraries</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 1</span>
+
+<span class="c1"># Step 1: Import necessary libraries</span>
 <span class="c1"># import pandas as pd</span>
+<span class="c1"># import numpy as np</span>
 
-<span class="c1"># Step 2: Load and filter the datasets</span>
-<span class="c1"># data1 = load_dataset(&quot;path_to_dataset1.csv&quot;)</span>
-<span class="c1"># filtered_data1 = filer_data1(data1)</span>
-<span class="c1"># data2 = load_dataset(&quot;path_to_dataset2.csv&quot;)</span>
-<span class="c1"># filtered_data2 = filer_data2(data2)</span>
+<span class="c1"># Step 2: Import and filter data </span>
+<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/human_development.csv&#39;)</span>
+<span class="c1"># df1 = df1[[&#39;Country&#39;,&#39;Human Development Index (HDI)&#39;]]</span>
+<span class="c1"># df2 = pd.read_csv(&#39;docs/databases/gender_development.csv&#39;)</span>
+<span class="c1"># df2 = df2[[&#39;Country&#39;,&#39;Gender Development Index (GDI)&#39;]]</span>
+<span class="c1"># df3 = pd.read_csv(&#39;docs/databases/suiciderateall.csv&#39;)</span>
+<span class="c1"># df3 = df3[[&#39;Country&#39;, &#39;2015&#39;]]</span>
+<span class="c1"># df3 = df3.rename(columns={&#39;2015&#39;: &#39;Average suicide 2015&#39;})</span>
 
-<span class="c1"># Step 3: Merge datasets</span>
-<span class="c1"># merged_data = merge_datasets(filtered_data1, filtered_data2)</span>
+<span class="c1"># Step 3: merge </span>
+<span class="c1"># df = pd.merge(df, df2, on=&#39;Country&#39;)</span>
+<span class="c1"># df = pd.merge(df, df3, on=&#39;Country&#39;)</span>
 
 <span class="c1"># Step 4: Process the data for visualizations</span>
-<span class="c1"># first_result_for_vis = process_first_result(filtered_data1)</span>
-<span class="c1"># second_result_for_vis = process_second_result(filtered_data2)</span>
-<span class="c1"># third_result_for_vis = process_third_result(merged_data)</span>
+<span class="c1"># df = df.rename(columns={&#39;Gender Development Index (GDI)&#39;: &#39;GDI 2015&#39;, </span>
+<span class="c1">#     &#39;Human Development Index (HDI)&#39;: &#39;HDI 2015&#39;})</span>
+<span class="c1"># df = df.replace(&#39;..&#39;, np.nan).dropna()</span>
 
 <span class="c1"># Step 5: Save the results into files</span>
-<span class="c1"># save_to_file(first_result_for_vis, &quot;table1.csv&quot;)</span>
-<span class="c1"># save_to_file(second_result_for_vis, &quot;table2.csv&quot;)</span>
-<span class="c1"># save_to_file(third_result_for_vis, &quot;table3.csv&quot;)</span>
+<span class="c1"># df.to_csv(&#39;databases/IV DATASET 1.csv&#39;, index=False)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 2</span>
+
+<span class="c1"># Step 1: Import necessary libraries</span>
+<span class="c1"># import pandas as pd</span>
+
+<span class="c1"># Step 2: Import and filter data </span>
+<span class="c1"># df = pd.read_csv(&#39;databases/suiciderateall.csv&#39;)</span>
+
+<span class="c1"># Step 3: Process the data for visualizations</span>
+<span class="c1"># df_restructured = df.melt(id_vars=&#39;Country&#39;, var_name=&#39;Year&#39;, value_name=&#39;Suicides/100k&#39;)</span>
+<span class="c1"># df_restructured = df_restructured.sort_values([&#39;Country&#39;, &#39;Year&#39;]).reset_index(drop=True)</span>
+
+<span class="c1"># Step 4: Save the results into files</span>
+<span class="c1"># df_restructured.to_csv(&#39;docs/databases/IV DATASET 2.csv&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># DATASET 3</span>
+
+<span class="c1"># Step 1: Import necessary libraries</span>
+<span class="c1"># import pandas as pd</span>
+
+<span class="c1"># Step 2: Import and filter data </span>
+<span class="c1"># df = pd.read_csv(&#39;docs/databases/REIGN_2021_6.csv&#39;)</span>
+<span class="c1"># df = df[[&#39;country&#39;, &#39;year&#39;, &#39;gov_democracy&#39;, &#39;government&#39;, &#39;political_violence&#39;]]</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Russia&#39;, &#39;Russian Federation&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;USA&#39;, &#39;United States&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;UKG&#39;, &#39;United Kingdom&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Congo-Brz&#39;, &#39;Congo&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;St.Lucia&#39;, &#39;Saint Lucia&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Dominican Rep&#39;, &#39;Dominican Republic&#39;)</span>
+<span class="c1"># df[&#39;country&#39;] = df[&#39;country&#39;].replace(&#39;Central African Rep&#39;, &#39;Central African Republic&#39;)</span>
+<span class="c1"># df_most_recent = df.groupby(&#39;country&#39;)[&#39;year&#39;].max().reset_index()</span>
+
+<span class="c1"># Step 3: merge </span>
+<span class="c1"># df = pd.merge(df_most_recent, df, on=[&#39;country&#39;, &#39;year&#39;], how=&#39;left&#39;).drop_duplicates(subset=(&#39;country&#39;))</span>
+
+<span class="c1"># Step 4: Process the data for visualizations</span>
+<span class="c1"># df = df.rename(columns={&#39;country&#39;: &#39;Country&#39;, &#39;gov_democracy&#39;: &#39;democracy&#39;})</span>
+<span class="c1"># df = df[[&#39;Country&#39;, &#39;democracy&#39;, &#39;government&#39;, &#39;political_violence&#39;]]</span>
+
+<span class="c1"># Step 5: Save the results into files</span>
+<span class="c1"># df.to_csv(&#39;docs/databases/IV DATASET 3.csv&#39;, index=False)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Female and Male Suicide Datasets (DATASETS 4,5)</span>
+
+<span class="c1"># Step 1: Import necessary libraries</span>
+<span class="c1"># import pandas as pd</span>
+
+<span class="c1"># Step 2: Import and filter data </span>
+<span class="c1"># df = pd.read_csv(&#39;docs/databases/Age-standardized suicide rates.csv&#39;)</span>
+<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
+<span class="c1"># df1 = df1[[&#39;Country&#39;, &#39;GDI 2015&#39;, &#39;HDI 2015&#39;]]</span>
+
+<span class="c1"># Step 3: merge </span>
+<span class="c1"># df = pd.merge(df, df1, on=&#39;Country&#39;)</span>
+
+<span class="c1"># Step 4: Process the data for visualizations</span>
+<span class="c1"># df[&#39;Sex&#39;] = df[&#39;Sex&#39;].str.replace(&#39;female&#39;, &#39;F&#39;).str.replace(&#39;male&#39;, &#39;M&#39;)</span>
+<span class="c1"># female_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;fem&#39;, case=False)]</span>
+<span class="c1"># male_suicides = df[df[&#39;Sex&#39;].str.contains(&#39;male&#39;, case=False)]</span>
+
+<span class="c1"># Step 5: Save the results into files</span>
+<span class="c1"># female_suicides.to_csv(&#39;docs/databases/female_suicides.csv&#39;)</span>
+<span class="c1"># male_suicides.to_csv(&#39;docs/databases/male_suicides.csv&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Main Dataset</span>
+
+<span class="c1"># Step 1: Import necessary libraries</span>
+<span class="c1"># import pandas as pd</span>
+
+<span class="c1"># Step 2: Import and filter data </span>
+<span class="c1"># df1 = pd.read_csv(&#39;docs/databases/IV DATASET 1.csv&#39;)</span>
+<span class="c1"># df2 = pd.read_csv(&#39;docs/databases/IV DATASET 3.csv&#39;)</span>
+
+<span class="c1"># Step 3: merge </span>
+<span class="c1"># df = pd.merge(df1, df2, on=&#39;Country&#39;)</span>
+
+<span class="c1"># Step 4: Save the results into files</span>
+<span class="c1"># df.to_csv(&#39;docs/databases/FINAL DATASET.csv&#39;)</span>
 </pre></div>
 </div>
 </div>
