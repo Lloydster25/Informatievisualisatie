@@ -6,8 +6,10 @@ df1 = df1[['Country','Human Development Index (HDI)']]
 df2 = pd.read_csv('docs/databases/DATABASE 2.csv')
 df2 = df2[['Country','Gender Development Index (GDI)']]
 df3 = pd.read_csv('docs/databases/DATABASE 3.csv')
+print(df3)
 df3 = df3[['Country', '2015']]
 df3 = df3.rename(columns={'2015': 'Average suicide 2015'})
+
 
 df = pd.merge(df1, df2, on='Country')
 df = pd.merge(df, df3, on='Country')
